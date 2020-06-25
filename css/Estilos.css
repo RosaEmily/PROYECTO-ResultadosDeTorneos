@@ -1,0 +1,61 @@
+.bloque_ryb
+{
+	text-align: center; 
+	display: inline-block;
+}
+
+.boton_buscar
+{
+	height: 23px;
+	width: 23px;
+	border: none;
+	display: inline-block; 
+	height:35px; 
+	width: 35px; 
+	margin-top: -3px;
+}
+
+.img
+{
+	vertical-align: middle;
+	transition: transform .5s;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+.espacio
+{
+	display: inline-block;
+	width: 5px;
+}
+
+.img:hover
+{
+	transform: scale(1.2);
+}
+
+.menu
+{
+	background-color: #085B3D;
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+	border-radius: 0px;
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.menu:hover
+{
+	color : #085B3D;
+	text-decoration: none;
+	background-color:#275A0E;
+	padding: 10px;
+}
+
+.caja-texto
+{
+	padding: 15px;
+}
